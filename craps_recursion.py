@@ -3,12 +3,12 @@ first_try = random.randrange(1, 7)
 second_try = random.randrange(1, 7)
 sum_try = first_try + second_try
 
-
+#win function
 def win():
     return f'''The sum of dice is {first_try} + {second_try} = {sum_try}
      You won.'''
 
-
+#lose function
 def lose():
     return f'''The sum of dice is {first_try} + {second_try} = {sum_try}
     You lose.'''
