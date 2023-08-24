@@ -1,6 +1,6 @@
 import random
 
-
+#to create a game function
 def game():
     repetition = 0
     sum_value = 0
